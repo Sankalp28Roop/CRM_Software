@@ -1,0 +1,91 @@
+“All datasets and files are hosted on Google Drive for easy access.”
+
+📦 Project Files and Resources
+
+All project materials are hosted in this public Google Drive folder:
+➡️ Open Google Drive Folder: https://drive.google.com/drive/folders/1HWYDToMwWngNuGMzGNVYnqsMWri1S1tw?usp=sharing
+
+Access: Anyone with the link can view and download the files.
+All files are organized into clear subfolders for easy navigation and reuse.
+
+📁 Folder Structure Overview
+Folder	Description	Approx. Size
+/data/raw/	Original datasets collected from source systems	~8 GB
+/data/processed/	Cleaned and structured data ready for analysis	~4 GB
+/scripts/	Python or R scripts used for preprocessing and analysis	~300 MB
+/docs/	Project documentation, reports, data dictionary, and README	~50 MB
+/images/	Charts, plots, screenshots, and visual materials	~100 MB
+/archives/	Older versions and compressed backups	~10 GB
+
+🔍 How to Explore
+
+Preview online:
+Click any file to open a preview directly in Google Drive.
+
+Download single files:
+Right-click a file → Download.
+
+Download entire folders:
+Right-click a folder → Download. Drive will compress it into a .zip.
+
+Search within Drive:
+Use the Drive search bar (top) to locate specific filenames or file types (e.g., .csv, .pdf).
+
+Use with external tools:
+You can access the folder using Drive integrations such as rclone or Google Colab for large datasets.
+
+🧾 File Information
+
+File formats used:
+
+.csv – tabular data
+
+.xlsx – structured sheets
+
+.json – configuration or structured metadata
+
+.pdf – reports and documentation
+
+.ipynb – Jupyter notebooks for analysis
+
+Encoding: UTF-8
+Time zone: UTC
+Naming convention:
+<category>_<date>_<version> (e.g., sensor_2025-11_v2.csv)
+
+🗂️ Dataset Notes
+
+Raw data contains unprocessed logs and sensor readings.
+
+Processed data includes cleaned and normalized records.
+
+Scripts folder includes utilities for ETL, visualization, and validation.
+
+Documentation folder includes a data dictionary, changelog, and process flow diagrams.
+
+⚡ Quick Download Option
+
+For faster access, a compressed version of all files is available here:
+Download Full Project Snapshot (ZIP)
+
+This archive includes all subfolders and documentation as of the latest release.
+If you download large data (10+ GB), use a stable network connection.
+
+📄 License and Attribution
+
+Unless otherwise stated, all data and documents are released under the
+Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+You are free to share and adapt the materials with proper credit.
+
+🧩 Related Resources
+
+Project GitHub Repository
+
+Documentation Index
+
+Issue Tracker
+
+📬 Contact
+
+If you find issues, missing files, or broken links, please open a GitHub issue
+or contact: swaroopsankalpshree@gmail.com
