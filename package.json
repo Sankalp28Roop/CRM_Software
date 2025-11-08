@@ -1,0 +1,31 @@
+{
+  "name": "crm-software",
+  "version": "1.0.0",
+  "description": "Production-grade CRM using MERN stack with PostgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "start": "node backend/server.js",
+    "demo": "bash start-demo.sh",
+    "demo:python": "python3 start-demo.py",
+    "build": "cd frontend && npm run build",
+    "serve": "cd frontend && npx serve -s dist -l 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crm",
+    "mern",
+    "postgresql",
+    "prisma"
+  ],
+  "author": "Sankalp Swaroop",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {},
+  "type": "commonjs"
+}
